@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Voltron is a processing library for drawing volumes in processing.  It was developed as part of a module in Basic Techniques for the MRes in Digital Media @ Culture Lab Newcastle
+Voltron is a processing library for drawing volumes in processing.  It was developed as part of a module in Basic Techniques for the MRes in Digital Media at Culture Lab Newcastle
 
 
 = Details =
@@ -12,6 +12,7 @@ The library is packaged with source if you want to check it over and tell me how
 When importing it might import a lot of libraries - needs fixing!
 
 It will work with just:
+
 import NewcasteDigitalMedia.dataprole.voltron.*;
 
 and of course openGL.
