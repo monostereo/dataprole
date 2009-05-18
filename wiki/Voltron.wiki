@@ -10,12 +10,12 @@ Voltron is a processing library for drawing volumes in processing.  It was devel
 The library is packaged with source if you want to check it over and tell me how to make it better.  It also has a few examples.  Just put it in the libraries folder in your sketches folder for processing and import at the top of the sketch.
 
 When importing it might import a lot of libraries - needs fixing!
-
-It will work with just:
-
+It will still work with just:
 import NewcasteDigitalMedia.dataprole.voltron.*;
 
-and of course openGL.
+I have found some great data sets here:
+[http://www.gris.uni-tuebingen.de/edu/areas/scivis/volren/datasets/datasets.html gris.uni-tuebingen.de]
 
+The library should load headerless '.img' such as the ones in the examples and '.raw.gz' as found at the link above
 
 This is the first library I have ever written - so expect there to be plenty to fix, i look forward to contributions and suggestions!
