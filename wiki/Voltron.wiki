@@ -31,3 +31,8 @@ Feel free to edit this with changes etc. you might think it needs.
 = Known Issues =
 
   * Invalid memory access error when scrubbing through array - probably needs some exception structure to stop it crashing when you do this.
+
+
+
+
+= Change Log =
