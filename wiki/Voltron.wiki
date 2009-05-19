@@ -15,9 +15,7 @@ import NewcasteDigitalMedia.dataprole.voltron.*;
 
 I have found some great data sets here:
 [http://www.gris.uni-tuebingen.de/edu/areas/scivis/volren/datasets/datasets.html gris.uni-tuebingen.de]
-
 The library should load headerless '.img' such as the ones in the examples and '.raw.gz' as found at the link above
-
 This is the first library I have ever written - so expect there to be plenty to fix, i look forward to contributions and suggestions!
 
 = Additions? =
