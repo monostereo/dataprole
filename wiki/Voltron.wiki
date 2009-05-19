@@ -19,3 +19,11 @@ I have found some great data sets here:
 The library should load headerless '.img' such as the ones in the examples and '.raw.gz' as found at the link above
 
 This is the first library I have ever written - so expect there to be plenty to fix, i look forward to contributions and suggestions!
+
+= Additions? =
+
+feel free to edit this with changes etc. you might think it needs.
+
+*dynamic removal of points from the array without deleting the whole thing?
+*plot only a small section of the array - simlar to section but aimed at plotting sequences not slices (I have started this)
+*plotting small section as above and dynamically altering the range (this is proving hard and is giving an error)
