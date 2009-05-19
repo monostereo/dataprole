@@ -22,8 +22,12 @@ This is the first library I have ever written - so expect there to be plenty to 
 
 = Additions? =
 
-feel free to edit this with changes etc. you might think it needs.
+Feel free to edit this with changes etc. you might think it needs.
 
-*dynamic removal of points from the array without deleting the whole thing?
-*plot only a small section of the array - simlar to section but aimed at plotting sequences not slices (I have started this)
-*plotting small section as above and dynamically altering the range (this is proving hard and is giving an error)
+  * dynamic removal of points from the array without deleting the whole thing?
+  * plot only a small section of the array - simlar to section but aimed at plotting sequences not slices (I have started this)
+  * plotting small section as above and dynamically altering the range (this is proving hard and is giving an error)
+
+= Known Issues =
+
+  * Invalid memory access error when scrubbing through array - probably needs some exception structure to stop it crashing when you do this.
