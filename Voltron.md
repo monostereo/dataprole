@@ -1,0 +1,34 @@
+# Introduction #
+
+Voltron is a processing library for drawing volumes in processing.  It was developed as part of a module in Basic Techniques for the MRes in Digital Media at Culture Lab Newcastle
+
+
+# Details #
+
+The library is packaged with source if you want to check it over and tell me how to make it better.  It also has a few examples.  Just put it in the libraries folder in your sketches folder for processing and import at the top of the sketch.
+
+When importing it might import a lot of libraries - needs fixing!
+It will still work with just:
+import NewcasteDigitalMedia.dataprole.voltron.**;**
+
+I have found some great data sets here:
+[gris.uni-tuebingen.de](http://www.gris.uni-tuebingen.de/edu/areas/scivis/volren/datasets/datasets.html)
+The library should load headerless '.img' such as the ones in the examples and '.raw.gz' as found at the link above
+This is the first library I have ever written - so expect there to be plenty to fix, i look forward to contributions and suggestions!
+
+# Additions? #
+
+Feel free to edit this with changes etc. you might think it needs.
+
+  * dynamic removal of points from the array without deleting the whole thing?
+  * plot only a small section of the array - simlar to section but aimed at plotting sequences not slices (I have started this)
+  * plotting small section as above and dynamically altering the range (this is proving hard and is giving an error)
+
+# Known Issues #
+
+  * Invalid memory access error when scrubbing through array - probably needs some exception structure to stop it crashing when you do this.
+
+
+
+
+# Change Log #
